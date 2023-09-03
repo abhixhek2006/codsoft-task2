@@ -1,0 +1,322 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: ui ui-rounded;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.logo {
+    max-height: 100px;
+
+}
+span{
+    color: #69afa9;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 100px 25px;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+    transition: .4s;
+}
+
+.btn {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color:#346e8d ;
+    
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about-text h2 {
+
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: algerian;
+
+   }
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    color:#ECEFF1;
+}
+
+button {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+button:hovor {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+.service {
+    background:#eae7ee;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+
+    font-size: 75px;
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: algerian;
+    color: rgb(95, 151, 166);
+    
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+
+.card {
+    height: 410px;
+    width: 360px;
+    padding: 20px 35px;
+    background: #191919;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+
+h5 {
+    color: #a91849;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: #36c1ca;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+#contact {
+    width: 100%;
+    height: 200px;
+    background: #69afa9;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: algerian;
+}
+
+#contact p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+#contact img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px; 
+    vertical-align: middle; 
+}
+
+
+.content .title {
+    color: #1f1f25;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+   
+}
+
+.content-left {
+    flex: 1;
+    padding-right: 20px; 
+}
+
+.content-right {
+    flex: 1;
+    text-align: right; 
+}
+
+.content-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+ .content p {
+    width: 55%;
+    color: #4f1515;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.content h1 {
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 100%;
+}
+
+.content h1 span {
+    color: #1f1f25;
+}
+
+.skills {
+    color: #8c0f00;
+    text-align: center;
+
+    width: 100%;
+    height: 560px;
+    background: #E3F2FD;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills h3 {
+   font-size: 75px;
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: algerian;
+
+}
+
+.skills li {
+    padding-bottom: 3%;
+}
